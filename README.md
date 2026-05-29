@@ -1,35 +1,26 @@
 # Study Chatbot
 
-AI-powered study assistant built with Python and Streamlit.
+AI-powered study assistant built with Streamlit.
 
 ## Features
+
+- Upload PDF files
 - Upload TXT files
-- Upload PDF notes
-- Extract text from PDFs
-- Ask questions about uploaded notes
-- Search relevant content from study material
+- PDF preview inside browser
+- Semantic search using Sentence Transformers
+- Find relevant sections from study notes
+- Download original PDF
 
 ## Tech Stack
+
 - Python
 - Streamlit
+- Sentence Transformers
 - PyPDF
-- Conda
+- Scikit-learn
 
-## Installation
+## Run Locally
 
-```bash
 pip install -r requirements.txt
-```
 
-## Run App
-
-```bash
 streamlit run app.py
-```
-
-## Future Improvements
-- Semantic AI search
-- OpenAI integration
-- Chat memory
-- Multiple document support
-- Vector database support
